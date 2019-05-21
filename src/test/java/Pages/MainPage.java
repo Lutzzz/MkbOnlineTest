@@ -20,8 +20,8 @@ public class MainPage {
 
     public static void doInvalidLogin() {
 
-        loginField.shouldBe(visible).setValue(login);
-        passwordField.shouldBe(visible).setValue(password);
+        loginField.setValue(login);
+        passwordField.setValue(password);
         submitButton.shouldBe(enabled).click();
     }
 
