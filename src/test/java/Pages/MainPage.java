@@ -5,14 +5,15 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selenide.*;
 
 
 public class MainPage {
 
-    public final static SelenideElement loginField = Selenide.$(By.id("txtLogin"));
-    public final static SelenideElement passwordField = Selenide.$(By.id("txtPassword"));
-    public final static SelenideElement submitButton = Selenide.$(By.id("btnLoginStandard"));
-    public final static SelenideElement errorMessage = Selenide.$(By.id("errMessage"));
+    public final static SelenideElement loginField = $(By.id("txtLogin"));
+    public final static SelenideElement passwordField = $(By.id("txtPassword"));
+    public final static SelenideElement submitButton = $(By.id("btnLoginStandard"));
+    public final static SelenideElement errorMessage = $(By.id("errMessage"));
 
     static final private String login = "Avtotest";
     static final private String password = "123456";
