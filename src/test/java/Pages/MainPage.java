@@ -31,7 +31,7 @@ public class MainPage {
         }
     }
 
-    public static void checkErrorAfter3UnsuccessfulTry() {
+    public static void checkError() {
         errorMessage.shouldHave(text("Вы ввели неправильный логин / пароль 3 раза. В целях безопасности вход в систему ограничен."));
     }
 }

@@ -22,7 +22,7 @@ public class MkbOnlineLoggingTest {
         open("/");
         submitButton.shouldBe(enabled);
         causeLogingError();
-        checkErrorAfter3UnsuccessfulTry();
+        checkError();
     }
     // After метод не нужен, т.к. Selenide сам закрывает драйвер по завершению теста
 
