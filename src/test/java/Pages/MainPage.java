@@ -25,7 +25,7 @@ public class MainPage {
         submitButton.shouldBe(enabled).click();
     }
 
-    public static void doInvalidLogin3Times() {
+    public static void CauseLogingError() {
         for (int i = 0; i < 3; i++) {
             doInvalidLogin();
         }
