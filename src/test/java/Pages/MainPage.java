@@ -17,7 +17,7 @@ public class MainPage {
     static final private String login = "Avtotest";
     static final private String password = "123456";
 
-    public static void doUnvalidLogin() {
+    public static void doInvalidLogin() {
 
         loginField.shouldBe(visible).val(login);
         passwordField.shouldBe(visible).val(password);
@@ -26,7 +26,7 @@ public class MainPage {
 
     public static void doInvalidLogin3Times() {
         for (int i = 0; i < 3; i++) {
-            doUnvalidLogin();
+            doInvalidLogin();
             loginField.clear();
             passwordField.clear();
         }
