@@ -1,5 +1,6 @@
 package Tests;
 
+import Pages.MainPage;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,7 +21,7 @@ public class MkbOnlineLoggingTest {
     public void Test() {
         open("/");
         submitButton.shouldBe(enabled);
-        doInvalidLogin3Times();
+        causeLogingError();
         checkErrorAfter3UnsuccessfulTry();
     }
     // After метод не нужен, т.к. Selenide сам закрывает драйвер по завершению теста

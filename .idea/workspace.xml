@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190116e5-d217-40da-9706-b9817b0a1644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../art1/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../art1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Automation" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PersonalArea.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../artifactForLearning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../artifactForLearning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../artifactForLearning/src/test/java/SecondPack/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../artifactForLearning/src/test/java/SecondPack/BaseTest.java" afterDir="false" />
     </list>
@@ -45,14 +43,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1678" />
+          <entry key="java" value="1770" />
+          <entry key="txt" value="24" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1678" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="1770" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="464">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +86,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="384">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558449076214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558450518445" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -252,39 +254,91 @@
       <option name="presentableId" value="Default" />
       <updated>1558422658495</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactoring">
+      <created>1558449211157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558449211157</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactoring2">
+      <created>1558449285896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558449285896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring3">
+      <created>1558449461435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558449461435</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactoring4">
+      <created>1558449702569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558449702569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactoring5">
+      <created>1558449816752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558449816752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactoring6">
+      <created>1558450263979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558450263979</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 16h 08m 24s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 16h 09m 04s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 16h 13m 39s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 16h 24m 37s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 16h 28m 30s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 24m 33s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 26m 00s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 28m 37s.xml">
-      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 30m 46s.xml">
       <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 31m 29s.xml">
       <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 38m 55s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 40m 52s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 44m 09s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 44m 57s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 46m 26s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 48m 28s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 49m 02s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_Test - 2019.05.21 at 17h 50m 25s.xml">
+      <configuration name="MkbOnlineLoggingTest.Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
@@ -299,15 +353,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.5016129" side_tool="true" weight="0.25026625" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="TODO" order="10" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,6 +430,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="refactoring2" />
+    <MESSAGE value="refactoring3" />
+    <MESSAGE value="refactoring4" />
+    <MESSAGE value="refactoring5" />
+    <MESSAGE value="refactoring6" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring6" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ConciseApi.java" />
@@ -389,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MkbWebUiTest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -406,10 +459,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MkbWebUiTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="464">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,7 +25,7 @@ public class MainPage {
         submitButton.shouldBe(enabled).click();
     }
 
-    public static void CauseLogingError() {
+    public static void causeLogingError() {
         for (int i = 0; i < 3; i++) {
             doInvalidLogin();
         }
