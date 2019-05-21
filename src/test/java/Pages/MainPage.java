@@ -1,27 +1,38 @@
 package Pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-
-import java.net.PasswordAuthentication;
+import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.*;
 
+
 public class MainPage {
 
-    private final static SelenideElement loginButton = Selenide.$("asd");
-    private final static SelenideElement loginField= Selenide.$("bla");
-    private final static SelenideElement passwordField= Selenide.$("bla");
-    private final static SelenideElement submitField= Selenide.$("bla");
+    public final static SelenideElement loginField = Selenide.$(By.id("txtLogin"));
+    public final static SelenideElement passwordField = Selenide.$(By.id("txtPassword"));
+    public final static SelenideElement submitButton = Selenide.$(By.id("btnLoginStandard"));
+    public final static SelenideElement errorMessage = Selenide.$(By.id("errMessage"));
 
-    public static void doLogin(){
+    static final private String login = "Avtotest";
+    static final private String password = "123456";
 
-        loginButton.shouldBe(enabled).click();
-        loginField.shouldBe(enabled).val("");
-        passwordField.shouldBe(enabled).val("");
-        passwordField.shouldHave(Condition.text());
-        submitField.shouldBe(enabled).click();
+    public static void doUnvalidLogin() {
+
+        loginField.shouldBe(visible).val(login);
+        passwordField.shouldBe(visible).val(password);
+        submitButton.shouldBe(enabled).click();
     }
 
+    public static void doInvalidLogin3Times() {
+        for (int i = 0; i < 3; i++) {
+            doUnvalidLogin();
+            loginField.clear();
+            passwordField.clear();
+        }
+    }
+
+    public static void checkErrorAfter3UnsuccessfulTry() {
+        errorMessage.shouldHave(text("Вы ввели неправильный логин / пароль 3 раза. В целях безопасности вход в систему ограничен."));
+    }
 }
