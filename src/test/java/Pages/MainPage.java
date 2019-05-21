@@ -28,8 +28,6 @@ public class MainPage {
     public static void doInvalidLogin3Times() {
         for (int i = 0; i < 3; i++) {
             doInvalidLogin();
-            loginField.clear();
-            passwordField.clear();
         }
     }
 
