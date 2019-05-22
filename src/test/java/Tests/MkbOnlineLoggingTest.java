@@ -1,7 +1,6 @@
 package Tests;
 
 import Pages.MainPage;
-import com.codeborne.selenide.Selenide;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,16 +15,15 @@ public class MkbOnlineLoggingTest {
     public void setUp (){
         browser = "chrome";
         baseUrl = "https://online.mkb.ru";
-        open("/");
+
     }
 
     @Test
     public void test() {
-        MainPage mainPageInstance = Selenide.page(MainPage.class);
+        MainPage mainPageInstance = open("/",MainPage.class);
         mainPageInstance.causeLogingError();
         mainPageInstance.checkError();
     }
-    // After метод не нужен, т.к. Selenide сам закрывает драйвер по завершению теста
 
 
 }
