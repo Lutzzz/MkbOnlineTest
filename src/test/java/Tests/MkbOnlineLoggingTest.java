@@ -1,28 +1,29 @@
 package Tests;
 
 import Pages.MainPage;
+import com.codeborne.selenide.Selenide;
 import org.junit.Before;
 import org.junit.Test;
 
-import static Pages.MainPage.*;
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Configuration.*;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Configuration.baseUrl;
+import static com.codeborne.selenide.Configuration.browser;
+import static com.codeborne.selenide.Selenide.open;
 
 public class MkbOnlineLoggingTest {
 
+
     @Before
-    public void setup (){
+    public void setUp (){
         browser = "chrome";
-        baseUrl = "https://online.mkb.ru/";
+        baseUrl = "https://online.mkb.ru";
+        open("/");
     }
 
     @Test
-    public void Test() {
-        open("/");
-        submitButton.shouldBe(enabled);
-        causeLogingError();
-        checkError();
+    public void test() {
+        MainPage mainPageInstance = Selenide.page(MainPage.class);
+        mainPageInstance.causeLogingError();
+        mainPageInstance.checkError();
     }
     // After метод не нужен, т.к. Selenide сам закрывает драйвер по завершению теста
 

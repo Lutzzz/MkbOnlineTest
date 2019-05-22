@@ -1,37 +1,42 @@
 package Pages;
 
-import com.codeborne.selenide.Selenide;
+
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
+import org.openqa.selenium.support.FindBy;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
+
 
 
 public class MainPage {
 
-    public final static SelenideElement loginField = $(By.id("txtLogin"));
-    public final static SelenideElement passwordField = $(By.id("txtPassword"));
-    public final static SelenideElement submitButton = $(By.id("btnLoginStandard"));
-    public final static SelenideElement errorMessage = $(By.id("errMessage"));
+    @FindBy (id = "txtLogin") private SelenideElement loginField;
+    @FindBy (id = "txtPassword") private SelenideElement passwordField;
+    @FindBy (id = "btnLoginStandard") private SelenideElement submitButton;
+    @FindBy (css = ".errmsg.login-password") private SelenideElement errorMessage;
+    @FindBy (css = ".errmsg.login2") private SelenideElement authentificationError;
 
-    static final private String login = "Avtotest";
-    static final private String password = "123456";
 
-    public static void doInvalidLogin() {
+    private String login = "Avtotest";
+    private String password = "123456";
+
+    public void doInvalidLogin() {
 
         loginField.setValue(login);
         passwordField.setValue(password);
         submitButton.shouldBe(enabled).click();
+
     }
 
-    public static void causeLogingError() {
-        for (int i = 0; i < 3; i++) {
+    public void causeLogingError() {
+        for (int i = 0; i < 2; i++) {
             doInvalidLogin();
+            authentificationError.shouldBe(visible);
         }
+        doInvalidLogin();
     }
 
-    public static void checkError() {
-        errorMessage.shouldHave(text("Вы ввели неправильный логин / пароль 3 раза. В целях безопасности вход в систему ограничен."));
+    public void checkError() {
+        errorMessage.shouldHave(text("Вы ввели неправильный логин / пароль 3 раза"));
     }
 }
