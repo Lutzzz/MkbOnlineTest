@@ -1,30 +1,19 @@
 package Tests;
 
+import ConciseApi.BaseTest;
 import Pages.MainPage;
-import org.junit.Before;
 import org.junit.Test;
 
-import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Configuration.browser;
 import static com.codeborne.selenide.Selenide.open;
 
-public class MkbOnlineLoggingTest {
-
-
-    @Before
-    public void setUp (){
-        browser = "chrome";
-        baseUrl = "https://online.mkb.ru";
-
-    }
+public class MkbOnlineLoggingTest extends BaseTest {
 
     @Test
-    public void test() {
+    public void testBlockMessage() {
         MainPage mainPageInstance = open("/",MainPage.class);
         mainPageInstance.causeLogingError();
         mainPageInstance.checkError();
     }
-
 
 }
 

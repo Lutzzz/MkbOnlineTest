@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../art1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Automation" beforeDir="false" afterPath="$PROJECT_DIR$/../Automation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../artifactForLearning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../artifactForLearning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../artifactForLearning/src/test/java/SecondPack/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../artifactForLearning/src/test/java/SecondPack/BaseTest.java" afterDir="false" />
@@ -33,34 +32,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="7" />
           <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
           <entry key="png" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="7" />
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2899" />
-          <entry key="txt" value="45" />
+          <entry key="java" value="3538" />
+          <entry key="txt" value="46" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2899" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="JAVA" value="3538" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -74,12 +73,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="320">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
                 <element signature="e#1212#1213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ConciseApi/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/WebDriverRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,19 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/Selenide.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/SelenideDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+            <state relative-caret-position="-48">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -142,9 +159,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/PersonalArea.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/PersonalAreaPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/Test2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/Test2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ConciseApi/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -205,6 +223,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ConciseApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MkbWebUiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MkbWebUiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558536242884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558597488992" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -264,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MkbOnlineLoggingTest.test">
+  <component name="RunManager" selected="JUnit.Test2.showMe">
     <configuration name="MkbOnlineLoggingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MkbWebUiTest" />
       <extension name="coverage">
@@ -311,13 +337,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2.showMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MkbWebUiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test2" />
+      <option name="METHOD_NAME" value="showMe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.MkbOnlineLoggingTest" />
       <item itemvalue="JUnit.MkbOnlineLoggingTest.Test" />
       <item itemvalue="JUnit.MkbOnlineLoggingTest.test" />
+      <item itemvalue="JUnit.Test2.showMe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test2.showMe" />
         <item itemvalue="JUnit.MkbOnlineLoggingTest.test" />
         <item itemvalue="JUnit.MkbOnlineLoggingTest.Test" />
         <item itemvalue="JUnit.MkbOnlineLoggingTest" />
@@ -405,19 +449,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558528836340</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactoring11">
+      <created>1558537505224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558537505224</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MkbOnlineLoggingTest_test - 2019.05.22 at 15h 01m 26s.xml">
-      <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_test - 2019.05.22 at 15h 07m 43s.xml">
-      <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MkbOnlineLoggingTest_test - 2019.05.22 at 15h 08m 42s.xml">
-      <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MkbOnlineLoggingTest_test - 2019.05.22 at 15h 09m 50s.xml">
       <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
     </history-entry>
@@ -439,6 +481,15 @@
     <history-entry file="MkbOnlineLoggingTest_test - 2019.05.22 at 17h 43m 45s.xml">
       <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MkbOnlineLoggingTest_test - 2019.05.23 at 09h 56m 54s.xml">
+      <configuration name="MkbOnlineLoggingTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_showMe - 2019.05.23 at 10h 18m 39s.xml">
+      <configuration name="Test2.showMe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_showMe - 2019.05.23 at 10h 19m 04s.xml">
+      <configuration name="Test2.showMe" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,6 +502,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25825346" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.25292864" />
@@ -462,14 +514,14 @@
       <window_info id="Favorites" order="7" sideWeight="0.5016129" side_tool="true" weight="0.25026625" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627262" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946752" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946752" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49893504" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5037274" side_tool="true" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49520767" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50532484" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49361023" weight="0.32972974" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -480,6 +532,35 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25825346" />
+      <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.25292864" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5016129" side_tool="true" weight="0.25026625" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946752" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49893504" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50532484" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49361023" weight="0.32972974" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -521,25 +602,14 @@
     <MESSAGE value="refactoring8" />
     <MESSAGE value="refactoring9" />
     <MESSAGE value="refactoring10" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring10" />
+    <MESSAGE value="refactoring11" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring11" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ConciseApi.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/PersonalAreaPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MkbWebUiTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -561,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -599,17 +662,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/SelenideDriver.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state relative-caret-position="144">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/MkbOnlineLoggingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/SelenideDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.2.2/selenide-5.2.2.jar!/com/codeborne/selenide/WebDriverRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConciseApi/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -618,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="320">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
